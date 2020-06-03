@@ -125,7 +125,7 @@ class GameBody extends React.Component {
           <StartPage setGameDimension={this.setGameDimension} />
         )}
         {!this.state.gameFinished && this.state.gameStarted && (
-          <table>
+          <table className='game-body'>
             <tbody>{this.renderGameData()}</tbody>
           </table>
         )}

@@ -2,25 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: grey;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .dimension-label {
@@ -61,15 +51,6 @@ table tr th:last-child {
   border-right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .win-msg {
   text-align: center;
   color: #000;
@@ -83,11 +64,17 @@ table tr th:last-child {
 
 h1 {
   background-size: cover;
-  color: #000;
+  color: #D3D3D3;
   background-clip: text;
   text-transform: uppercase;
-  font-size: 10rem;
+  font-size: 50px;
   margin: 10px 0;
+}
+
+.opener {
+  width: 60vw;
+  margin-bottom: 20px;
+  color: #FFF;
 }
 
 .white-mode {
@@ -101,4 +88,13 @@ h1 {
   left: 15px;
   bottom: 15px;
   font-family: "Montserrat";
+}
+
+.select-size {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.game-body {
+  margin-top: 20vw;
 }
