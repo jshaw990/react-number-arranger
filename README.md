@@ -1,3 +1,11 @@
+# Number Arranger
+
+Created with React, this simple number arrangement game is deployed on Netfily and 100% responsive to different screen sizes. 
+
+[Deployed to Netifly!](https://reverent-panini-fcabf4.netlify.app/)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
